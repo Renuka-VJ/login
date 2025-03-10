@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Signup</title>
+    <link href="facebook.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-div">
+        <h1 id="logo">facebook</h1>
+        <form id="signup">
+            <div class="signup-form">
+                <div class="form-head">
+                    <h2>Create a new account</h2>
+                    <p>it's quick and easy</p>
+                </div>
+
+                <div class="input-fields">
+                    <div class="half-width">
+                        <input type="text" placeholder="Full name" name="fname">
+                    </div>
+                    <div class="half-width">
+                        <input type="text" placeholder="Sur name" name="sname">
+                    </div>
+                    <div class="full-width">
+                        <input type="number" placeholder="Mobile number" name="mobile">
+                    </div>
+                    <div class="full-width">
+                        <input type="password" placeholder="New password" name="password">
+                    </div>
+
+                    <label>Date of birth</label>
+                    <div class="dob">
+                        <div class="quater-width">
+                            <select name="day">
+                                <option value="">choose</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <div class="quater-width">
+                            <select name="month">
+                                <option value="">choose</option>
+                                <option value="jan">jan</option>
+                                <option value="feb">feb</option>
+                                <option value="mar">mar</option>
+                            </select>
+                        </div>
+                        <div class="quater-width">
+                            <select name="year">
+                                <option value="">choose</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                                <option value="2002">2002</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label>Gender</label>
+                    <div class="gen">
+                        <div class="quater-width">
+                            <div class="radio-button">
+                                <label class="radio-label">female</label>
+                                <input type="radio" class="radio-inp" name="gender" />
+                            </div>
+                        </div>
+                        <div class="quater-width">
+                            <div class="radio-button">
+                                <label class="radio-label">male</label>
+                                <input type="radio" class="radio-inp" name="gender" />
+                            </div>
+                        </div>
+                        <div class="quater-width">
+                            <div class="radio-button">
+                                <label class="radio-label">others</label>
+                                <input type="radio" class="radio-inp" name="gender" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full-width">
+                        <input type="text" placeholder="select your pronoun">
+                </div>
+                     <small>People who use our service may have uploades your contact information to facebook.<a href="facebook.com"> learnmore</a> <br><br>by clicking sign up.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fuga quisquam illum cum, non ratione excepturi recusandae fugit aliquid perspiciatis modi eaque.</small>
+                     <div class="button-div">
+                        <button class="s-btn">Signup</button>
+                     </div>
+                     <div class="ac-dic">
+                        <a href="facebook.com">Aldredy have an account?</a>
+                     </div>
+                    </div>
+
+            </div>
+
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+<script src="validation.js"></script>
+</html>
